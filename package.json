@@ -1,0 +1,28 @@
+{
+  "name": "ignacia-corner",
+  "version": "1.0.0",
+  "description": "This is my personal space on the internet.",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amefedora/ignacia-corner.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/amefedora/ignacia-corner/issues"
+  },
+  "homepage": "https://github.com/amefedora/ignacia-corner#readme",
+  "devDependencies": {
+    "@vuepress/bundler-vite": "^2.0.0-rc.32",
+    "@vuepress/theme-default": "^2.0.0-rc.140",
+    "sass": "^1.108.2",
+    "vuepress": "^2.0.0-rc.32"
+  }
+}
