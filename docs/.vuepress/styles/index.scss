@@ -14,12 +14,23 @@
 }
 
 /* 2. VuePress theme colors */
-:root,
-[data-theme='light'] {
+
+/* Light mode */
+:root {
   --vp-c-bg: var(--journal-cream);
   --vp-c-text: var(--journal-ink);
   --vp-c-accent: #75538e;
   --vp-c-accent-hover: #604274;
+}
+
+/* Dark mode */
+html[data-theme='dark'] {
+  --vp-c-bg: #252330;
+  --vp-c-bg-alt: #302d3d;
+  --vp-c-bg-elv: #353243;
+  --vp-c-text: #f5ede3;
+  --vp-c-accent: #c9c3e8;
+  --vp-c-accent-hover: #ddd5f5;
 }
 
 /* 3. Body typography */
