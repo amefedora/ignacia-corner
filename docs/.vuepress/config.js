@@ -18,11 +18,22 @@ export default defineUserConfig({
       },
       {
         text: 'What I Do',
-        link: '/what-i-do/',
+        children: [
+          { text: 'Overview', link: '/what-i-do/' },
+          { text: 'Studies', link: '/what-i-do/studies/' },
+          { text: 'Career', link: '/what-i-do/career/' },
+          { text: 'Projects', link: '/what-i-do/projects/' },
+        ],
       },
       {
         text: 'What I Love',
-        link: '/what-i-love/',
+        children: [
+      { text: 'Overview', link: '/what-i-love/' },
+      { text: 'Writings', link: '/what-i-love/writings/' },
+      { text: 'Music', link: '/what-i-love/music/' },
+      { text: 'Bookshelf', link: '/what-i-love/bookshelf/' },
+      { text: 'Everything Else', link: '/what-i-love/everything-else/' },
+    ],
       },
     ],
   }),

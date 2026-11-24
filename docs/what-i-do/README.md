@@ -8,11 +8,11 @@ career experiences, and projects I've worked on.
 
 ## Explore
 
-### Studies
+### [Studies](./studies/)
 Things I've learned, courses, and academic experiences.
 
-### Career
+### [Career](./career/)
 My professional journey, experiences, and lessons learned.
 
-### Projects
+### [Projects](./projects/)
 A collection of projects I've built and completed.
