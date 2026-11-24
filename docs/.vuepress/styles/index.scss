@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=DM+Sans:wght@400;500;600;700&family=Fraunces:wght@400;600;700&display=swap');
+
+/* 1. Design variables */
+:root {
+  --journal-cream: #FFF8ED;
+  --journal-pink: #F1C4CF;
+  --journal-lavender: #C9C3E8;
+  --journal-yellow: #F3D58B;
+  --journal-ink: #343047;
+
+  --font-heading: 'Fraunces', Georgia, serif;
+  --font-body: 'DM Sans', sans-serif;
+  --font-handwritten: 'Caveat', cursive;
+}
+
+/* 2. VuePress theme colors */
+:root,
+[data-theme='light'] {
+  --vp-c-bg: var(--journal-cream);
+  --vp-c-text: var(--journal-ink);
+  --vp-c-accent: #75538e;
+  --vp-c-accent-hover: #604274;
+}
+
+/* 3. Body typography */
+body {
+  font-family: var(--font-body);
+}
+
+/* 4. Heading typography */
+h1, h2, h3, h4 {
+  font-family: var(--font-heading);
+}
+
+/* 5. Homepage title */
+.vp-home .vp-hero h1 {
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  font-weight: 700;
+}
