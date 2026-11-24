@@ -1,17 +1,12 @@
+---
+home: true
+heroText: "Ignacia's Corner"
+tagline: "A little corner of the internet for everything I build, learn, and love."
+footer: "Made with curiosity and a little bit of code."
+---
 
-# Hello, World! 👋
+<script setup>
+import JournalCards from './.vuepress/components/JournalCards.vue'
+</script>
 
-Welcome to my little corner of the internet.
-
-This is where I'll share my writings, projects,
-book reviews, and things I'm learning.
-
-## Explore
-
-- ✍️ Writing
-- 💻 Projects
-- 📚 Book Reviews
-- 🌱 Learning Notes
-
-I'm building this website while learning VuePress,
-one day at a time.
+<JournalCards />

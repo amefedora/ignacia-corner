@@ -11,6 +11,12 @@
   --font-heading: 'Fraunces', Georgia, serif;
   --font-body: 'DM Sans', sans-serif;
   --font-handwritten: 'Caveat', cursive;
+
+  --journal-card-work: var(--journal-lavender);
+  --journal-card-love: var(--journal-pink);
+  --journal-card-text: var(--journal-ink);
+  --journal-card-border: var(--journal-ink);
+  --journal-card-tape: var(--journal-yellow); 
 }
 
 /* 2. VuePress theme colors */
@@ -31,6 +37,12 @@ html[data-theme='dark'] {
   --vp-c-text: #f5ede3;
   --vp-c-accent: #c9c3e8;
   --vp-c-accent-hover: #ddd5f5;
+
+  --journal-card-work: #45405c;
+  --journal-card-love: #563b49;
+  --journal-card-text: #f5ede3;
+  --journal-card-border: #9387a5;
+  --journal-card-tape: #b49a62;
 }
 
 /* 3. Body typography */
