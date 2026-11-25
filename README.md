@@ -18,3 +18,4 @@ This is my personal space on the internet.
 ## Progress
 
 - Day 1: Created my first GitHub repository.
+
