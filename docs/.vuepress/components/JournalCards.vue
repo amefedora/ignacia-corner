@@ -39,7 +39,6 @@
 import { RouterLink } from 'vue-router'
 </script>
 
-
 <style scoped>
 .journal-section {
   max-width: 700px;

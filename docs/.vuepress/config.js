@@ -2,6 +2,7 @@
 import { defineUserConfig } from 'vuepress'
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defaultTheme } from '@vuepress/theme-default'
+import { projectListPlugin } from './plugins/projectList.js'
 
 export default defineUserConfig({
   lang: 'en-US',
@@ -9,6 +10,10 @@ export default defineUserConfig({
   description: 'A place for everything I build, learn, and love',
 
   bundler: viteBundler(),
+
+  plugins: [
+    projectListPlugin()
+  ],
 
   theme: defaultTheme({
     navbar: [
@@ -37,4 +42,6 @@ export default defineUserConfig({
       },
     ],
   }),
+
+  
 })
